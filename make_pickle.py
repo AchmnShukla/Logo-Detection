@@ -142,11 +142,11 @@ def randomize(dataset, labels):
 def main():  
     dirs = [
         os.path.join(pp_dir, class_name, 'train')      # Look into all the train folder of the class
-        for class_name in common.CLASS_NAME
+        for class_name in clas.CLASS_NAME
     ]
     test_dirs = [
         os.path.join(pp_dir, class_name, 'test')        # Look into all the test folder of the class
-        for class_name in common.CLASS_NAME
+        for class_name in clas.CLASS_NAME
     ]
 
     train_datasets = pickling(dirs)
