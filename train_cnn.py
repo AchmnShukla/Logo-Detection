@@ -89,7 +89,7 @@ network = regression(network, optimizer='adam', loss='categorical_crossentropy',
 model = tflearn.DNN(network, tensorboard_verbose=0, checkpoint_path="model\logo-classifier.tfl.ckpt")
 
 # Training! n_epoch will tell how many iterations the network has to go through, here it is kept 15 training passes and monitor it as it goes.
-model.fit(X,Y, n_epoch=15, shuffle=True, validation_set=(X_test, Y_test), show_metric=True, batch_size=128, snapshot_epoch=True,
+model.fit(X,Y, n_epoch=100, shuffle=True, validation_set=(X_test, Y_test), show_metric=True, batch_size=128, snapshot_epoch=True,
           run_id='logo-classifier')
 
 # Save model when training is complete to a file
