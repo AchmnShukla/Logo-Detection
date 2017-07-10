@@ -60,10 +60,10 @@ network = fully_connected(network, 10, activation='softmax')
 network = regression(network, optimizer='adam', loss='categorical_crossentropy', learning_rate=0.01)
 
 # Covering the network in a model object and calling the trained dataset file.
-model = tflearn.DNN(network, tensorboard_verbose=0, checkpoint_path='model\logo-classifier.tfl.ckpt-2737')
+model = tflearn.DNN(network, tensorboard_verbose=0, checkpoint_path='model\logo-classifier.tfl.ckpt-8205')
 
 #Loading the trained dataset file
-model.load("model\logo-classifier.tfl.ckpt-2737")
+model.load("model\logo-classifier.tfl.ckpt-8205")
 
 # Load the image file
 img = scipy.ndimage.imread(args.image, mode="RGB")
