@@ -9,9 +9,9 @@ This is a Brand logo classification done by neural networks based on TFLeanrn an
 * numpy+mkl 
 * scipy
 * scikitlearn 
-* <a href=" https://www.tensorflow.org/install/ ">Tensor flow</a>
+* <a href="https://www.tensorflow.org/install/">Tensor flow</a>
 
-*    You can find most of the Python libraries <a href=" http://www.lfd.uci.edu/~gohlke/pythonlibs ">Here</a>.
+* You can find most of the Python libraries <a href="http://www.lfd.uci.edu/~gohlke/pythonlibs">Here</a>.
 
 
 ### How to use
