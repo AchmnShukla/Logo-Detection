@@ -45,7 +45,7 @@ lr_start = 1e-3
 lr_end = 1e-4
 lr_decay = (lr_end / lr_start)**(1. / epochs)
 
-# BN
+# Binary network
 epsilon = 1e-4  # Fuzz factor
 momentum = 0.9  # Parameter updates Momentum
 
